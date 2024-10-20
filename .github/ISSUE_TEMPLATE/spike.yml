@@ -1,7 +1,7 @@
 name: Spike
 description: An item to research and answer questions.
 title: "[SPIKE] "
-labels: ["Story"]
+labels: ["research", "question"]
 projects: ["Project-Overworld/1"]
 body:
   - type: textarea

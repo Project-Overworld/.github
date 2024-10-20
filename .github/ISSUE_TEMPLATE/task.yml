@@ -1,7 +1,7 @@
 name: Task
 description: An item to track a small amount of effort.
 title: "[TASK] "
-labels: ["Task"]
+labels: ["task"]
 projects: ["Project-Overworld/1"]
 body:
   - type: textarea
