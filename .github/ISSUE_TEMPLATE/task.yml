@@ -1,0 +1,29 @@
+name: Task
+description: An item to track a small amount of effort.
+title: "[TASK] "
+labels: ["Task"]
+projects: ["Project-Overworld/1"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be accomplished?
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the task.
+    validations:
+      required: false
+  - type: checkboxes
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: (No need to check these boxes)
+      options:
+        - label: All code is implemented and merged into the dev-* branch.
+        - label: All code is tested in the dev-* branch.
+        - label: All defects new defects related to this feature are resolved.

@@ -1,0 +1,30 @@
+name: Story
+description: An item to track a slice of a feature.
+title: "[STORY] "
+labels: ["Story"]
+projects: ["Project-Overworld/1"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of this story/slice.
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Criteria of Acceptance
+      description: Requirements that must be completed for this story.
+    validations:
+      required: true
+  - type: checkboxes
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: (No need to check these boxes)
+      options:
+        - label: All requirements are implemented and merged into the dev-* branch.
+        - label: All code is tested in the dev-* branch.
+        - label: All defects new defects related to this feature are resolved.
+        - label: Documentation for the feature is created.

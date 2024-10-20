@@ -1,0 +1,36 @@
+name: Spike
+description: An item to research and answer questions.
+title: "[SPIKE] "
+labels: ["Story"]
+projects: ["Project-Overworld/1"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is the problem?
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What is the goal of this spike? What questions need to be answered?
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Are there any other items needed for this spike?
+    validations:
+      required: false
+  - type: checkboxes
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: (No need to check these boxes)
+      options:
+        - label: All questions are answered.
+        - label: Proof of Concepts are don.e (If applicable)
+        - label: Features, Stories, and Tasks are created. (If applicable)
