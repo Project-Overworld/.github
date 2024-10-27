@@ -1,0 +1,30 @@
+name: Feature
+description: An item to track new feature for this project.
+title: "[EPIC] "
+labels: ["epic"]
+projects: ["Project-Overworld/1"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the epic.
+    validations:
+      required: true
+  - type: textarea
+    id: features
+    attributes:
+      label: Features
+      description: Features a part of this epic.
+    validations:
+      required: true
+  - type: checkboxes
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: (No need to check these boxes)
+      options:
+        - label: All features are done
+        - label: All code is tested in the dev-* branch.
+        - label: All new defects related to this feature have been resolved.
+        - label: Documentation for the epic is created.
