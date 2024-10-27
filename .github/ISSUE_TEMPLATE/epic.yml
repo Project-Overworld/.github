@@ -1,4 +1,4 @@
-name: Feature
+name: Epic
 description: An item to track new feature for this project.
 title: "[EPIC] "
 labels: ["epic"]
