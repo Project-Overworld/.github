@@ -10,13 +10,6 @@ body:
       description: A clear and concise description of the epic.
     validations:
       required: true
-  - type: textarea
-    id: features
-    attributes:
-      label: Features
-      description: Features a part of this epic.
-    validations:
-      required: true
   - type: checkboxes
     id: definition-of-done
     attributes:
