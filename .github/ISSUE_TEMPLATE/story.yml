@@ -1,7 +1,7 @@
 name: Story
 description: An item to track a slice of a feature.
-title: "[STORY] "
-labels: ["slice", "enhancement"]
+type: "Story"
+labels: ["slice"]
 projects: ["Project-Overworld/1"]
 body:
   - type: textarea

@@ -1,6 +1,6 @@
 name: Spike
 description: An item to research and answer questions.
-title: "[SPIKE] "
+type: "Spike"
 labels: ["research", "question"]
 projects: ["Project-Overworld/1"]
 body:

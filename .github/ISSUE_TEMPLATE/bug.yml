@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug or defect.
-title: "[BUG] "
+type: "Bug"
 labels: ["bug"]
 projects: ["Project-Overworld/1"]
 body:
