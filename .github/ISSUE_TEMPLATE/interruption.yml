@@ -1,7 +1,6 @@
 name: Interruption
 description: A task that wasn't originally planned.
 type: "Interruption"
-labels: ["task"]
 projects: ["Project-Overworld/1"]
 body:
   - type: textarea
