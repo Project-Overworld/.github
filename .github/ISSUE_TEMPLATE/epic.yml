@@ -1,6 +1,7 @@
 name: Epic
 description: An item to track new feature for this project.
 title: "[EPIC] "
+type: "Epic"
 labels: ["epic"]
 projects: ["Project-Overworld/1"]
 body:
