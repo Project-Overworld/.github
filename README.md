@@ -1,3 +1,3 @@
-# Server
+# .github
 
-Contains the server configuration files and server docker image
+Special repository for templates and organizaion things
